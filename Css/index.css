@@ -1,12 +1,11 @@
 body{
 
 
-background: #C2BBBB;
-margin: auto;
-text-align: center;
+background-image: url(office2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
 padding: 0px;
-width: auto;
-height: auto;
 
  
 
@@ -19,9 +18,12 @@ height: auto;
 
 
 
-.Options{
-
-
+#Title{
+	font-size: 500px;
+	color: black;
+	text-align: center;
+	font-family:'Geomanist Extralight';
+	line-height: 4000px;
 }
 
 
