@@ -1,32 +1,30 @@
 body{
 
+background-color: black;
 
-background-image: url(office2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0px;
+
+}
+
+
+.Menu{
+
+font-family: "Geomanist Light";
+color: white;
+font-size: 200px;
+text-align: center;
+border-bottom: solid red 15px;
 padding: 0px;
-
- 
-
+margin: 0px;
 
 
 
-        
 
 }
 
+.Menu h1:hover
+{
+	color: blue;
+	
 
-
-#Title{
-	font-size: 500px;
-	color: black;
-	text-align: center;
-	font-family:'Geomanist Extralight';
-	line-height: 4000px;
 }
-
-
-
-
 
