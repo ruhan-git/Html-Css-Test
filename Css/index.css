@@ -8,13 +8,12 @@ background-color: black;
 
 .Menu{
 
-font-family: "Geomanist Light";
+font-family: "Geomanist ExtraLight";
 color: white;
 font-size: 200px;
-text-align: center;
 border-bottom: solid red 15px;
 padding: 0px;
-margin: 0px;
+text-align: right;
 
 
 
@@ -23,7 +22,7 @@ margin: 0px;
 
 .Menu h1:hover
 {
-	color: blue;
+	color: yellow;
 	
 
 }
