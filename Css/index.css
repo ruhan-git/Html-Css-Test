@@ -10,10 +10,12 @@ background-color: black;
 
 font-family: "Geomanist ExtraLight";
 color: white;
-font-size: 200px;
-border-bottom: solid red 15px;
+font-size: 212px;
 padding: 0px;
 text-align: right;
+background-color: rgb(28,255,28);
+
+
 
 
 
@@ -22,8 +24,42 @@ text-align: right;
 
 .Menu h1:hover
 {
-	color: yellow;
+	color: blue;
 	
 
 }
 
+p{
+
+color: yellow;
+text-align: center;
+font-family: "Geomanist Light";
+font-size: 500px;
+
+
+
+}
+
+p:hover
+{
+	font-family: "Geomanist ExtraLight";
+
+
+}
+
+
+
+
+.Fuwang p:hover
+{
+
+font-family: "Geomanist Light";
+
+
+}
+
+.Wedo{
+
+background-color: blue;
+ 
+}
