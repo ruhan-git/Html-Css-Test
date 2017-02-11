@@ -1,65 +1,134 @@
 body{
 
-background-color: black;
+background-color: white;
+
+}
+
+a.log:visited{
+
+
+color: black;
 
 
 }
 
+
+a.log:active{
+
+background-color: #34342f;
+text-align: center;
+color: white;
+font-size: 50px;
+cursor: pointer;
+text-decoration: none;
+
+
+
+}
+
+a.log{
+
+background-color: brown;
+font-size: 50px;
+color: white;
+background-color: limegreen;
+display: block;
+
+}
+
+ul li{
+
+background-color: yellow;
+font-size: 40px;
+
+}
+
+ul li:nth-child(2):hover{
+
+text-align: center;
+background-color: #34342f;
+color: white;
+
+}
+
+ul li:nth-child(1):hover{
+
+text-align: center;
+background-color: red;
+
+
+}
+
+ul li:nth-child(3):active{
+
+text-align: center;
+background-color: green;
+width: 160px;
+height: 150px;
+
+}
+ul.hey#new[data-rel="im"]{
+
+text-align:  center;
+background-color: blue;
+
+}
+
+div.C2.Under#it[data-rel="hey"] p.close1{
+
+text-align: center;
+font-size: 50px;
+display: inline;
+margin: auto;
+padding: 20px;
+overflow: hidden;
+background-color: #333;
+float: left;
+color: red;
+
+}
+
+div.C2.Under#it[data-rel="hey"] p:nth-child(5):hover{
+
+background-color: #57eb45;
+text-align: center;
+font-size: 50px;
+
+
+}
+
+div.C2.Under#it[data-rel="hey"] p:hover{
+
+background-color: black;
+text-align: center
+font-size: 50px;
+font-family: "@Geomanist ExtraLight";
+color: white;
+
+}
 
 .Menu{
 
-font-family: "Geomanist ExtraLight";
+background-color:black;
 color: white;
-font-size: 212px;
-padding: 0px;
-text-align: right;
-background-color: rgb(28,255,28);
-
-
-
-
-
-
-}
-
-.Menu h1:hover
-{
-	color: blue;
-	
-
-}
-
-p{
-
-color: yellow;
+font-family: "@Geomanist ExtraLight";
 text-align: center;
-font-family: "Geomanist Light";
-font-size: 500px;
-
-
 
 }
 
-p:hover
-{
-	font-family: "Geomanist ExtraLight";
+.Menu a{
 
-
-}
-
-
-
-
-.Fuwang p:hover
-{
-
-font-family: "Geomanist Light";
-
+display: inline;
+font-size: 50px;
+padding: 20px;
 
 }
 
-.Wedo{
+.Menu a:hover{
 
-background-color: blue;
- 
+display: inline;
+font-size: 50px;
+padding: 20px;
+color: #00b806;
+
 }
