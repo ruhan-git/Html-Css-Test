@@ -2,7 +2,14 @@ body{
 
 background-color: white;
 
+
 }
+
+
+
+
+
+
 
 a.log:visited{
 
@@ -74,19 +81,6 @@ background-color: blue;
 
 }
 
-div.C2.Under#it[data-rel="hey"] p.close1{
-
-text-align: center;
-font-size: 50px;
-display: inline;
-margin: auto;
-padding: 20px;
-overflow: hidden;
-background-color: #333;
-float: left;
-color: red;
-
-}
 
 div.C2.Under#it[data-rel="hey"] p:nth-child(5):hover{
 
@@ -99,11 +93,22 @@ font-size: 50px;
 
 div.C2.Under#it[data-rel="hey"] p:hover{
 
-background-color: black;
-text-align: center
-font-size: 50px;
-font-family: "@Geomanist ExtraLight";
-color: white;
+background-color: #57eb45;
+
+
+}
+
+div.C2.Under#it[data-rel="hey"]>p{
+
+  background-color:black;
+  color: white;
+  font-family: "@Geomanist ExtraLight";
+  font-size: 50px;
+  text-align: center;
+  margin:  0 auto;
+  display: inline;
+  float: left;
+  padding: 15px;
 
 }
 
@@ -112,15 +117,21 @@ color: white;
 background-color:black;
 color: white;
 font-family: "@Geomanist ExtraLight";
+font-size: 50px;
+padding: 20px;
 text-align: center;
+
 
 }
 
 .Menu a{
 
-display: inline;
+font-family: "@Geomanist ExtraLight";
+text-align: center;
 font-size: 50px;
 padding: 20px;
+text-align: center;
+display: inline;
 
 }
 
@@ -131,4 +142,159 @@ font-size: 50px;
 padding: 20px;
 color: #00b806;
 
+}
+
+.Load{
+
+background-color:red;
+border: 5px solid green;
+margin: 50px;
+padding: 15px;
+
+
+}
+
+.Load:hover{
+
+background-color: black;
+border: 5px solid red;
+margin: 50px;
+padding: 15px;
+color: white;
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+
+}
+
+.Load h1:nth-child(2):hover{
+
+background-color: black;
+color: blue;
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+cursor: pointer;
+
+}
+
+.Load h1:nth-child(1):hover{
+
+background-color: black;
+color: red;
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+cursor: pointer;
+
+}
+
+.Load h1:nth-child(3):hover{
+
+background-color: black;
+color: limegreen;
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+cursor: pointer;
+
+}
+
+p.Rules{
+
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+font-size: 50px;
+color: royalblue;
+background-color: aqua;
+margin: 0 auto;
+
+
+}
+
+h1.Board{
+
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+font-size: 50px;
+color: royalblue;
+background-color: aqua;
+padding: 15px;
+
+}
+
+h1.Board p{
+
+text-align: center;
+font-family: "@Geomanist ExtraLight";
+font-size: 50px;
+color: red;
+background-color: black;
+display: inline-block;
+margin: 15px;
+border: 7px double black;
+margin: 0 auto;
+
+}
+
+a.Board1{
+
+text-align: center;
+font-size: 40px;
+display: block;
+border: 10px solid yellow;
+padding: 50px;
+margin: 0 auto
+}
+
+.NewOl{
+
+background-color:red;
+width: 600px;
+margin: 0 auto;
+
+
+}
+
+.box{
+
+margin: 0 auto;
+background: pink;
+width: 200px;
+height: 200px;
+pointer-events: none;
+transition: transform 1000ms ease-in-out
+
+}
+.ox:hover .box{
+
+transform: rotate(360deg) scale(1.2)
+
+}
+
+.ox{
+
+border: 10px solid #848080;
+width: 200px;
+height: 200px;
+background: #4b4b65;
+margin: 0 auto;
+padding: 5px;
+}
+
+.i1 img{
+
+border: 12px solid red;
+width: 500px;
+
+}
+
+.i1 img:hover{
+opacity: 0.90;
+background: #000;
+}
+
+.i1 h3{
+display: inline-block;
+margin: 0 auto;
+padding: 50px;
+text-align: center;
+font-size: 50px;
+border-top:  10px solid red;
 }
